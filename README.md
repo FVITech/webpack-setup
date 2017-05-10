@@ -13,6 +13,6 @@ into a 'bundle.css' file before prefixing it with autoprefixer.
 ### Usage
 
 ```npm run start``` will bundle the ```.js``` and ```.scss``` files, and watch them for changes,
-recompiling every time you save a ```.js``` or ```.scss``` file.
+recompiling and refreshing the browser every time you save a ```.js``` or ```.scss``` file.
 
 ```npm run prod``` will remove unused code and will minify the bundle.js and bundle.css files.
