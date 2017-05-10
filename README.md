@@ -14,5 +14,7 @@ into a 'bundle.css' file before prefixing it with autoprefixer.
 
 ```npm run start``` will bundle the ```.js``` and ```.scss``` files, and watch them for changes,
 recompiling and refreshing the browser every time you save a ```.js``` or ```.scss``` file.
+*Note:* Webpack will not refresh the browser on any ```.html``` changes, since no ```.html``` files
+have been required into the index.js file.
 
 ```npm run prod``` will remove unused code and will minify the bundle.js and bundle.css files.
